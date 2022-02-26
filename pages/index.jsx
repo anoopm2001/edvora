@@ -13,8 +13,6 @@ export default function Home({ data, user }) {
   const [state, setState] = useState({})
   const [city, setCity] = useState({})
 
-  console.log(data)
-
   var option_state = []
   var list_state = []
   var option_city = []
